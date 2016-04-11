@@ -1,0 +1,154 @@
+
+amarillo = #FBBD35
+amarillo_claro = #EFC68A
+azul_fb  = #39579E
+azul_tt  = #5FA9DD
+blanco_bg = #FFFFFF
+crema    = #F5E5D6
+gris_claro = #818181
+gris_oscuro = #333333
+gris_mas_claro = #F0F0F0
+gris_footer = #242830
+rojo     = #D92C2C
+rojo_yt = #B80000
+verde    = #6BC2BD
+violeta = #B352BF
+transparente = rgba(0, 0, 25, 0.6)
+
+body
+  background gris_footer
+a
+  color verde
+
+h1
+  font-size 2em
+  font-family: 'Yanone Kaffeesatz' sans-serif
+
+h2
+  color verde
+  font-size 1.5em
+  font-family: 'Yanone Kaffeesatz' sans-serif
+
+h3
+  color verde
+  font-size 1.5em
+  font-family: 'Yanone Kaffeesatz' sans-serif
+
+h4
+  font-size 1em
+
+h5
+  font-size .8em
+
+h6
+  color blanco_bg
+  font-size .6em
+
+header
+  background-image url(../images/splikbg.jpg)
+  object-fit cover
+  padding 100px
+
+div.userimage img
+  border-radius: 100px;
+  width: 75px;
+  padding: 7px;
+  border: 1px solid #ccc;
+
+section
+  background blanco_bg
+
+.imagencont
+  border-radius 50%
+  width 15%
+  height 15%
+
+.imagencont1
+  border-radius 50%
+  width 40%
+  height 40%
+  position relative
+
+.feedback, .legals, .legals1
+  font-family: 'Yanone Kaffeesatz' sans-serif
+
+.intext
+  line-height .1px
+
+.intext1
+ font-family: 'Yanone Kaffeesatz' sans-serif
+
+.splik_icon-twitter
+  color azul_tt
+
+.splik_icon-facebook
+  color azul_fb
+
+.splik_icon-google, .splik_icon-heart
+  color rojo
+
+.splik_icon-youtube4
+  color rojo_yt
+
+.splik_icon-github4
+  color violeta
+
+ul.legals, ul.social, ul.legals1
+  list-style none
+
+ul.legals li, ul.social li, ul.legals1 li
+  display inline-block
+
+ul.legals li::after
+  content " | "
+
+ul.legals li:last-child::after
+  content ""
+  color gris_claro
+
+ul.legals1 li::after
+  content " | "
+  color verde
+
+ul.legals1 li:last-child::after
+  content ""
+
+ul.legals
+  color blanco_bg
+  text-align center
+
+ul.social
+  font-size 30px
+  text-align center
+
+.legals
+  color blanco_bg
+  ::hover
+    color verde
+
+.navbar
+  background blanco_bg
+  border-bottom 2px solid verde
+
+.legals1
+  font-size 1.2em
+  text-align right
+
+.logo_splik
+  font-size 50px
+  color verde
+
+.logo_splik1
+    font-size 30px
+    color blanco_bg
+
+ul li, .legals, .social
+  color blanco_bg
+  opacity 80%
+
+.logo2
+  font-size 60px
+
+.button
+  background verde
+  border-bottom 5px solid amarillo_claro

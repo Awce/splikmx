@@ -3,7 +3,7 @@
     <div class="col l12 center">
       <div class="card-panel">
         <div class="row">
-          <form class="col s12" id="contacto">
+          <form class="col s12" id="contacto" role="form" action="php/contacto.php" method="post">
             <div class="row">
               <div class="input-field col s6">
                 <input id="first_name" type="text" class="validate">
@@ -22,7 +22,7 @@
                 <label for="textarea1">Cuéntanos tu idea o proyecto</label>
               </div>
               <div class="row center">
-                <input type="button" name="submit" value="Enviar" class="btn-large waves-effect waves-light teal lighten-1">
+                <input type="submit" name="submit" value="Enviar" class="btn-large waves-effect waves-light teal lighten-1">
               </div>
             </div>
           </form>
